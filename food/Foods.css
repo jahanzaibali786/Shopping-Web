@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navsec {
+    background: url(css/food.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#logo {
+    width: 360px;
+    height: 300px;
+    position: absolute;
+    top: -90px;
+    left: 3%;
+}
+
+.navitem {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+.navitem a {
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 12px 10px 12px 10px;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.navitem a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: orangered;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.navitem a:hover span {
+    width: 100%;
+
+}
+
+.navitem a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.front-heading {
+    padding-top: 160px;
+    padding-left: 310px;
+}
+
+.front-heading h1 {
+    font-size: 60px;
+    padding-left: 230px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 4px 6px black;
+}
+
+.front-heading p {
+    font-size: 30px;
+    color: #fff;
+    width: 750px;
+    text-shadow: 3px 3px black;
+}
+
+.front-heading button {
+    margin-left: 230px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    color: white;
+    background-color: orangered;
+}
+
+.front-heading button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menubox {
+    height: 1025px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.menuhead {
+    background: orangered;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.menuhead h3 {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.menubtn button {
+    width: 33.3%;
+}
+
+.breakmenu {
+    height: 940px;
+    width: 240px;
+    border: 2px solid black;
+    margin-left: 02.5px;
+    margin-top: 10px;
+}
+
+.breakmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.breakmenu li {
+    list-style: circle;
+}
+
+.breakmenu ul strong {
+    float: right;
+    margin-top: -22px;
+    margin-right: 5px;
+    color: orangered;
+}
+
+#brs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 80px;
+    color: orangered;
+}
+
+#brsd {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    color: orangered;
+}
+
+.othermeal {
+    height: 530px;
+    width: 240px;
+    border: 2px solid black;
+    float: right;
+    margin-top: -1020px;
+    margin-right: 20px;
+}
+.ffmenu{
+    height: 470px;
+    width: 230px;
+    border: 2px solid black;
+    margin-left: 02.5px;
+    margin-top: 10px;
+}
+.ffmenu li{
+    list-style: circle;
+}
+.ffmenu a{
+    text-decoration: none;
+    color: black;
+}
+.ffmenu strong{
+    float: right;
+    margin-top: -22px;
+    margin-right: 5px;
+    color: orangered;
+}
+#frs {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    color: orangered;
+}
+.sweets {
+    height: 330px;
+    width: 240px;
+    border: 2px solid black;
+    float: right;
+    margin-top: -480px;
+    margin-right: 20px;
+}
+.sweets .ffmenu{
+    height: 270px;
+    width: 230px;
+    border: 2px solid black;
+    margin-left: 02.5px;
+    margin-top: 10px;
+}
+.discription{
+    width: 750px;
+    margin-left: 300px;
+    position: absolute;
+    top: 700px;
+}
+.discription .text{
+    width:400px;
+}
+
+.discription .text1{
+    margin-top: 120px;
+    width:400px;
+}
+.discription .Picture{
+    margin-left: 450px;
+    margin-top: -300px;
+}
+.discription .Picture1{
+    margin-left: 450px;
+    margin-top: -250px;
+}
+.discription button{
+    background-color: orangered;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.discription img{
+    width: 250px;
+}
+.team h1{
+    padding-top: 50px;
+    margin-left: 550px;
+    margin-bottom: -70px;
+}
+/* css */
+.team{
+    margin-top: 70px;
+}
+  .team-area {
+    padding-top: 5%;
+    margin-top: 100px;
+  }
+
+  .single-team {
+    box-shadow: 0px 7px 7px 2px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+  }
+
+  .single-team:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+  }
+  .img-area {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .img-area img {
+    width: 100%;
+  }
+
+  .img-area:hover img {
+    transform: scale(1.2)
+  }
+
+  .img-area img {
+    height: 380px;
+    transition: all 0.4s ease 0s;
+  }
+
+  @media (max-width: 768px) {
+    .img-area img {
+      display: inline-block;
+    }
+  }
+
+  .img-area .social {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+  }
+
+  .img-area .social ul {
+    text-align: center;
+    position: relative;
+    top: 175px;
+  }
+
+  .img-area .social ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .list-inline{
+    display: flex;
+    margin-left: 30px;
+  }
+  .list-inline li{
+    padding-left: 15px;
+  }
+  .order{
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .img-area .social ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+  }
+
+  .img-text {
+    padding: 25px;
+    color: black;
+    text-align: center;
+  }
+
+  .img-text h4 {
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+  }
+
+  .img-text h5 {
+    font-size: 17px;
+    color: #545154
+  }
+  .img-text button{
+    background-color: orangered;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+  }
+  #buy-sec {
+    width: 100vh;
+    height: 30vw;
+    font-family: cursive;
+}
+
+.buy-text {
+    width: 100vh;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.buy-table {
+    width: 100%;
+    margin-left: 250px;
+}
+
+.buy-table select {
+    width: 100vh;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: orangered;
+}
+
+.buy-table input {
+    width: 100vh;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: orangered;
+}
+
+.buy-table button {
+    width: 150px;
+    height: 40px;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-style: none;
+   background-color: orangered;
+    color: white;
+}
+/* <!--footer-----> */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 350px; */
+}
+
+#footer {
+    height: 300px;
+    background: #24252b;
+    /* padding: 70px 0; */
+}
+
+.footer-col {
+    width: 800px;
+    margin-left: 10%;
+    margin-right: 5%;
+    /* padding: 0 15px; */
+}
+
+.footer-col h3 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font: size 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+
+}
+
+.fa-video {
+    color: darkorange;
+}
+
+.fa-photo-film {
+    color: darkred;
+}
+
+.fa-globe {
+    color: tomato;
+}
+
+.fa-facebook {
+    color: rgb(48, 48, 233);
+}
+
+.fa-whatsapp {
+    color: rgb(36, 180, 36);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-linkedin {
+    color: rgb(9, 99, 134);
+}
+
+.fa-cubes {
+    color: yellow;
+}
+
+.fa-gem {
+    color: #e91e63;
+}
+
+.fa-user-group {
+    color: aqua;
+}
+
+#email {
+    color: #bbbbbb;
+    text-align: center;
+}
+.contact{
+    padding-top: 60px;
+    width: 200px;
+    position: absolute;
+    padding-left: 100px;
+    margin-left: 750px;
+    padding-left: 200px;
+}
+.about{
+    padding-top: 60px;
+}
+#feedback{
+    width: 300px;
+    margin-left: 370px;
+    margin-top: -50px;
+}
+#feedback textarea{
+    width: 262px;
+}
+.submitt {
+    display: block;
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: orangered;
+    font-family: sans-serif;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+#sidenav nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+#sidenav nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menubtn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    border-radius: 5px;
+    background: orangered;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menubtn .menu-pic {
+    width: 50px;
+    height: 50px;
+    background: orangered;
+    border-radius: 5px;
+}
+@media (max-width: 670px){
+    .banner_text h1 {
+        font-size: 90px;
+    }
+    .banner_text p{
+        font-size: 30px;
+    }
+    .banner-btn a {
+        display: block;
+         margin: 20px 50px;    }
+}
+    
