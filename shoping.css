@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(243, 196, 231)), url(css/bannershop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    top: -70px;
+    left: 5%;
+}
+
+.banner_text {
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner_text h1 {
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.banner_text p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner-btn {
+    margin: 70px 0 0 150px;
+}
+
+.banner-btn a {
+    width: 120px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 12px 0px 12px 70px;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+
+}
+
+.banner-btn a:hover {
+    color: rgb(216, 14, 182);
+}
+
+.banner-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span {
+    width: 100%;
+}
+
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: rgb(216, 14, 182);
+    font-family: sans-serif;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+#sidenav nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+#sidenav nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menubtn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 5px;
+    background: rgb(216, 14, 182);
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menubtn .menu-pic {
+    width: 40px;
+    height: 40px;
+    background: rgb(216, 14, 182);
+    border-radius: 5px;
+}
+@media (max-width: 670px){
+    .banner_text h1 {
+        font-size: 90px;
+    }
+    .banner_text p{
+        font-size: 30px;
+    }
+    .banner-btn a {
+        display: block;
+         margin: 20px 50px;    }
+}
+    

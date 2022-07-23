@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shoping.css">
+    <title>Shop Now</title>
+    <!---Googel Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan family=Ubuntu:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=cursive family=Ubuntu:wght@700&display=swap">
+</head>
+
+<body>
+    <section id="banner">
+        <img src="css/css/logosjo_-removebg-preview.png" class="logo">
+        <div class="banner_text">
+            <h1>Welcome to shopping center</h1>
+            <p>Buy anything you want in one click and make your shopping easy</p>
+        </div>
+        <div class="banner-btn">
+            <a href="shoesshopping.html"><span></span>SHOES</a>
+            <a href="clothshopping.html"><span></span>Clothes</a>
+            <a href="Books.html"><span></span>Books</a>
+            <a href="Foods.html"><span></span>Foods</a>
+            <a href="Electronics.html"><span></span>Others</a>
+        </div>
+       
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop now</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img id="menuicon" class="menu-pic" src="css/css/menu btn.png">
+    </div>
+
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+        var menuicon = document.getElementById("menuicon");
+        
+
+        menubtn.onclick =function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0px"
+                menuicon.src="css/css/closeicon.png";
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menuicon.src="css/css/menu btn.png";
+            }
+        }
+        </script>
+        
+</body>
+
+</html>
